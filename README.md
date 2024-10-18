@@ -79,7 +79,23 @@ también tenemos al usuario normal, el cual vamos a distinguir por el símbolo $
 Los comandos son la contracción de las palabras en inglés que describe la acción ejemplo cd (change directory). Su estructura es muy simple comando + [opción,argumentos], dos comandos mega importantes son
 - man , páginas del manual, es el único ente que sabe todo acerca de un comando y acorde a la versión, ejemplos: $ man apropos o man -k "acción que quiere hacer"
 - apropos "acción que quiere hacer".
+- pwd, print name of current/working directory. Saber en qué directorio me encuentro.
+- cd, change directory. Cambiar de directorio, Ej. cd /tmp.
+- ls, list directory content, listar el contenido de un directorio. Ej. ls 
+- file, determine file type, determina el tipo de archivo. Ej. file somefile.
+- head, output the first part of files, muestra la primer parte de un archivo. Ej. head somefile.
+- tail, output the last part of files, muestra la última parte de un archivo. Ej. tail somefile.
+- more, display the contents of a file in a terminal, mostrar por páginas el contenido de un archivo. Ej. more somefile.
+- less, the opposite of more, muestra el contenido de un archivo por páginas con la opción de avanzar y regresar páginas. Ej. less somefile.
+- cat, concatenate files and print on the standard output, imprime el contenido de un archivo en la pantalla de la terminal. Ej. cat somefile.
+- touch, change file timestamps, cambia la marca de tiempo de un archivo si el archivo no existe lo genera. Ej. touch miarchi.txt.
+- echo, display a line of text, muestra una línea de texto. Ej. echo “Con algunas palabras”.
+- cp, copy files and directories, copia archivos y directorios. Ej. cp miarchivo.txt archivo.txt, observe que le cambia el nombre.
+- mkdir, make directories, crear directorios. Ej. mkdir midir
 
-Siga con esta guía: https://developers.redhat.com/cheat-sheets/linux-commands-cheat-sheet?extIdCarryOver=true&sc_cid=701f2000001Css5AAC&source=sso 
+Algo muy importante es la redirección estándar  en linux usando el signo >, entonces si usamos el comando echo “Con algunas palabras” > archivo.txt, la frase entre comillas se guardará en el archivo; si quieres agregar más palabras 
+sin borrar la línea anterior usa >>. Ejemplo $ echo “Otras palabras” >> archivo.txt.
+
+También puedes visitar esta guía: https://developers.redhat.com/cheat-sheets/linux-commands-cheat-sheet?extIdCarryOver=true&sc_cid=701f2000001Css5AAC&source=sso 
 
 
