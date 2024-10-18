@@ -74,3 +74,12 @@ Aquí más referencias para leer: 
 
 Por último y antes de ir a prepararse un café o tomar algo refrescante, para poner manos a la obra, mencionare al usuario root que es el todopoderoso al cual en la línea de comandos o consola lo distinguiremos por el símbolo de #, 
 también tenemos al usuario normal, el cual vamos a distinguir por el símbolo $.
+
+## Comandos (Guías)
+Los comandos son la contracción de las palabras en inglés que describe la acción ejemplo cd (change directory). Su estructura es muy simple comando + [opción,argumentos], dos comandos mega importantes son
+- man , páginas del manual, es el único ente que sabe todo acerca de un comando y acorde a la versión, ejemplos: $ man apropos o man -k "acción que quiere hacer"
+- apropos "acción que quiere hacer".
+
+Siga con esta guía: https://developers.redhat.com/cheat-sheets/linux-commands-cheat-sheet?extIdCarryOver=true&sc_cid=701f2000001Css5AAC&source=sso 
+
+
